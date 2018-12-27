@@ -1,8 +1,12 @@
 # FlutterAarHost
 Add flutter into an existing Android app. Use flutter as an aar.
 
+Flutter 作为一个 aar 集成到现有的 Android 项目中。
 
-# Contents
+# build
+./build.sh
+
+# contents
 - Gaussian blur with flutter BackdropFilter.（[高斯模糊](https://github.com/zhaoya188/FlutterBlurDemo)）
   <div><img width="300" height="675" src="https://github.com/zhaoya188/FlutterBlurDemo/raw/master/ScreenShot.png"/></div>
 
@@ -16,3 +20,6 @@ Add flutter into an existing Android app. Use flutter as an aar.
   <div><img width="782" height="595" src="https://github.com/zhaoya188/flutter_app/raw/master/screenshot/screenshot-native-embeded-flutter.png"/></div>
 
 - Other more
+
+# thanks
+[flutter_app](https://github.com/zhaoya188/flutter_app)
