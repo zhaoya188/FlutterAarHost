@@ -28,6 +28,13 @@ repositories {
         dirs 'libs'
     }
 }
+
+configurations.all {
+    // check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:28.+'
@@ -53,4 +60,7 @@ dependencies {
     // for flutter_inappbrowser
     implementation 'com.android.support:customtabs:28.0.0'
     implementation 'com.squareup.okhttp3:mockwebserver:3.11.0'
+
+    // use flutter maven lib
+    //implementation 'io.flutter:flutter:1.0-SNAPSHOT'
 }
